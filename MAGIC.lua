@@ -124,6 +124,9 @@ local ANDID = DATATWO:read()
 
 First = gg.isPackageInstalled("me.jagar.jokerantiban") if First == false then gg.alert("⛔️ !! السكربت خاص بمشتركين MAGIC فقط يرجى الاشتراك عند @Mikel22  !! ⛔️") os.exit() end
 
+on = ' [❌] '
+off = ' '
+
 -- -- -- -- -- -- -- -- -- --Check open-- -- -- -- -- -- -- -- -- -- --
 HOME = 1
 function HOME(...)
@@ -570,6 +573,37 @@ gg.setVisible(false)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
+gg.clearResults() 
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.addListItems({[1] = {address = 3153762356,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762372,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762376,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762536,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762540,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762544,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762638,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = 3153762738,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762788,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762808,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = 3153762908,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = 3153762918,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762968,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763058,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763258,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763408,flags = 4,freeze = true,value = 70086}})
+gg.clearResults()
 os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
@@ -577,7 +611,7 @@ os.remove("third_party.java_src.error_prone.project.annotations.Google_internal"
 gg.clearResults()
 gg.alert(" تم كسر الحماية")
 end
-
+end
 
 
 
@@ -719,7 +753,78 @@ end
     gg.searchNumber('132098', gg.TYPE_DWORD)
     gg.getResults(50000)
     gg.editAll('70086', gg.TYPE_DWORD)
-    gg.clearResults()
+    gg.clearResults() 
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.addListItems({[1] = {address = 3153762356,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762372,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762376,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762536,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762540,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762544,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762638,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = 3153762738,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762788,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762808,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = 3153762908,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = 3153762918,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762968,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763058,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763258,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763408,flags = 4,freeze = true,value = 70086}})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("136,303", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70,658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132,098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131,586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("262,403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
+gg.clearResults()
+gg.setRanges(4) 
+gg.searchNumber("1,065,336,439D;1,065,353,216D;1,074,790,406D;1,073,741,824D;1,669,365,766D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("1,065,336,439D;1,065,353,216D;1,074,790,406D;1,073,741,824D;1,669,365,766D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
+jg=gg.getResults(100) 
+sl=gg.getResultCount() 
+for i = 1, sl do 
+dzy=jg[i].address 
+gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_DWORD,freeze = true,value = 0}}) 
+end 
+gg.clearResults()
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
@@ -733,6 +838,7 @@ os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.co
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/Pictures")
 os.remove("/data/user/0/com.tencent.ig/com.tencent.ig/data/data/0/com.tencent.ig/app_bugly/sys_log_1578198950239.txt")
 gg.alert(" تم كسر الحماية")
+end
 end
 
 
@@ -773,144 +879,168 @@ gg.addListItems({[1] = {address = jz[i].address + 800,flags = 4,freeze = true,va
 end
 gg.clearResults()
 end
- gg.clearResults()
- edit({
-{gg.REGION_C_ALLOC},
-{"Memory Freeze"},
-{134658, 4},
-{134658, 0, 4},
-},
-{
-{0, 0, 4, true},
-})
-gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"135682"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"134658"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"133378"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+gg.searchNumber("135682;144387", gg.TYPE_DWORD)
+gg.refineNumber("135682", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"135938"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"134914"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"133635"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+gg.searchNumber("134658;131586", gg.TYPE_DWORD)
+gg.refineNumber("134658", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"131586"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"131842"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"133634"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+gg.searchNumber("4096;135682", gg.TYPE_DWORD)
+gg.refineNumber("4096", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"134402"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"144387"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"147971"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+gg.searchNumber("134914;262403", gg.TYPE_DWORD)
+gg.refineNumber("134914", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"196867"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"70658"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"327939"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+gg.searchNumber("133378;262403", gg.TYPE_DWORD)
+gg.refineNumber("133378", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"262403"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"83887361"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"100664577"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+gg.searchNumber("131330;133634", gg.TYPE_DWORD)
+gg.refineNumber("131330", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"117441793"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
+gg.searchNumber("131842;132098", gg.TYPE_DWORD)
+gg.refineNumber("131842", gg.TYPE_DWORD)
+revert = gg.getResults(11082001)
+local t = gg.getResults(11082001)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.clearResults() 
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.addListItems({[1] = {address = 3153762356,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762372,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762376,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762536,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762540,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762544,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762638,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = 3153762738,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762788,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762808,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = 3153762908,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = 3153762918,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762968,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763058,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763258,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763408,flags = 4,freeze = true,value = 70086}})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("136,303", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
-os.remove("/storage/emulated/0/Android/data/com.ludashi.superboost")
-os.remove("/storage/emulated/0/Android/data/io.va.exposed/files")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/cache")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/al")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/Unity")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/Pictures")
-os.remove("/data/user/0/com.tencent.ig/com.tencent.ig/data/data/0/com.tencent.ig/app_bugly/sys_log_1578198950239.txt")
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70,658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132,098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131,586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("262,403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
 gg.alert(" تم كسر الحماية")
+end
 end
 
 
@@ -2840,102 +2970,100 @@ gg.clearResults()
 gg.toast("Red Body Activated")
 end
 
-function standsco(...)
-standhadiM = gg.multiChoice({" ⬆️⁩ تشغيل سيت سكوب ⁦⬆️ ⁩⁩"," 🔽 ايقاف سيت سكوب ⁦🔽 ⁩⁩"," ⬆️⁩ تشغيل ستاند سكوب ⁦⬆️ ⁩⁩"," 🔽 ايقاف ستاند سكوب ⁦🔽 ⁩⁩"," ⬆️⁩ تشغيل ستاند شوت ⁦⬆️ ⁩⁩"," 🔽 ايقاف ستاند شوت ⁦🔽 ⁩⁩","⁦⁦ رجوع"}, nil, "╔─━━━━━━━━░░ 🇰🇼MAGIC 🇰🇼 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Mikel22    \n╚─━━━━━━━━░░ 🇰🇼MAGIC 🇰🇼░░━━━━━━━━─╝")
-if standhadiM == nil then
-else
-if standhadiM[1] == true then
-SITONESCOP()
-end
-if standhadiM[2] == true then
-SITSCOPEOFF()
-end
-if standhadiM[3] == true then
-STANDSCOPEON()
-end
-if standhadiM[4] == true then
-STANDSCOPEOFF()
-end
-if standhadiM[5] == true then
-SOON()
-end
-if standhadiM[6] == true then
-SOFF()
-end
-if standhadiM[7] == true then
-HOME()
-end
+frontscoppp = off
+sitscoppp = off
+standscoppp = off
+
+function standsco()
+standhadiM = gg.multiChoice({
+" ⬆️⁩ سيت سكوب ⁦⬆️ ⁩⁩"..sitscoppp,
+" ⬆️⁩ فرونت سكوب ⁦⬆️ ⁩⁩"..frontscoppp,
+" ⬆️⁩ ستاند سكوب ⁦⬆️ ⁩⁩"..standscoppp,
+"⁦⁦ ❎ رجوع للخلف ❎ ",
+}, nil, "╔─━━━━━━━━░░ 🇰🇼MAGIC 🇰🇼 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Mikel22    \n╚─━━━━━━━━░░ 🇰🇼MAGIC 🇰🇼░░━━━━━━━━─╝")
+if standhadiM == nil then else
+if standhadiM[1] == true then SITSCOPEON() end
+if standhadiM[2] == true then FRONTSCOPEON() end
+if standhadiM[3] == true then STANDSCOPE() end
+if standhadiM[4] == true then HOME() end
 end
 PUBGMH = -1
 end
 
-function SITONESCOP(...)
+function SITSCOPEON()
+if sitscoppp == off then
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.editAll("124", gg.TYPE_FLOAT)
+gg.searchNumber("18.38787841797;0.53867292404;-3.42232513428;1.77635705e-15:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("18.38787841797", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+sitscoppps1 = gg.getResults(2805)
+gg.editAll("130.5419921875", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("  تم  تشغيل الست سكوب ")
+gg.toast('Sit Scope activated!')
+sitscoppp = on
+else
+gg.clearResults()
+gg.setValues(sitscoppps1)
+gg.clearResults()
+gg.toast("Sit Scope Deactivated")
+sitscoppp = off
+end
 end
 
-function SITSCOPEOFF(...)
+function STANDSCOPE()
+if standscoppp == off then
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;124;0.0064272880554199", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("124", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.editAll("9.49029350281", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast(" تم  ايقاف الست سكوب ")
-end
-
-function STANDSCOPEON(...)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('4138667321167981973', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.sleep(140)
-gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('4138667321167981973', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.sleep(140)
-gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('4138667321167981973', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1401)
-gg.editAll("4848124999984742400", gg.TYPE_QWORD)
+gg.editAll('4848124999984742400', gg.TYPE_QWORD)
 gg.clearResults()
-gg.toast("Sit Scope Front activated!")
-end
-
-function STANDSCOPEOFF(...)
+gg.toast('Stand Scope activated!')
+standscoppp = on
+else
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('4848124999984742400', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.sleep(140)
-gg.refineNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('4848124999984742400', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.sleep(140)
-gg.refineNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('4848124999984742400', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1401)
-gg.editAll("4138667321167981973", gg.TYPE_QWORD)
+gg.editAll('4138667321167981973', gg.TYPE_QWORD)
 gg.clearResults()
-gg.toast("Stand Scope Deactivated!")
+gg.toast("Stand Scope Deactivated")
+standscoppp = off
+end
 end
 
-function SOON(...)
+function FRONTSCOPEON()
+if frontscoppp == off then
 gg.clearResults()
 gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("3497450139768418399", gg.TYPE_QWORD)
+gg.searchNumber('3497450139768418399', gg.TYPE_QWORD)
 gg.getResults(69)
-gg.editAll("9074961892185783746", gg.TYPE_QWORD)
+gg.editAll('9074961892185783746', gg.TYPE_QWORD)
 gg.clearResults()
-gg.toast("on!")
-end
-
-function SOFF(...)
+gg.toast('Stand Scope Front activated!')
+frontscoppp = on
+else
 gg.clearResults()
 gg.setRanges(gg.REGION_C_BSS)
-gg.searchNumber("9074961892185783746", gg.TYPE_QWORD)
+gg.searchNumber('9074961892185783746', gg.TYPE_QWORD)
 gg.getResults(69)
-gg.editAll("3497450139768418399", gg.TYPE_QWORD)
+gg.editAll('3497450139768418399', gg.TYPE_QWORD)
 gg.clearResults()
-gg.toast("off!")
+gg.toast("Stand Scope Front Deactivated")
+frontscoppp = off
 end
+end
+
+
+
 
 function speed(...)
 speedM = gg.choice({" 『 طيران اللعب تفعل في الجيم  』"," 『 اصلاح دمج الاسلحه 』"," 『 تشغيل سبيد فلاش 』"," 『 ايقاف سبيد فلاش  』"," 『 تشغيل سرعة لاعب متوسط 』"," 『 تشغيل سبيد نوك    』"," 『🚙 تفعيل سرعة الجيب  』"," 『🚗ايقاف سرعة الداسيا   』"," 『🚀 نزول سريع PC    』"," 『 ⁦☂️⁩نزول سريع بارشوت    』"," 『🚙 سرعة الجيب بنزين لاينتهي  』","🚙             قفز الجيب             🚙","🚗             قفز داسيا              🚗","رجوع"}, nil, "╔─━━━━━━━━░░ 🇰🇼MAGIC 🇰🇼 ░░━━━━━━━━─╗\n                    \n                                      للتواصل : @Mikel22    \n╚─━━━━━━━━░░ 🇰🇼MAGIC 🇰🇼░░━━━━━━━━─╝")
